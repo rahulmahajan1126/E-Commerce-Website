@@ -112,3 +112,52 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.footer-block{
+    height: 345px;
+    background-color: #415a77;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-bottom: 90px;
+}
+
+.footer-item{
+    height: 154.85px;
+    width: 231.9px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.footer-item span{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-item h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.copyright-bar{
+    border: 1px solid #60799b;
+}
+
+.Copyrights{
+    font-family: 'Poppins', sans-serif;
+}
