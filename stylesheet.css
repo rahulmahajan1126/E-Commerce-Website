@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Arial;
+    font-family: 'PT Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@ body {
     background-color: antiquewhite;
 }
 
+/* navigation bar */
 .navbar {
     height: 80px;
     width: 100%;
@@ -82,16 +83,18 @@ body {
     border-color: #1b263b; /* Change border color on hover */
 }
 
+/* Delivery in 48 hours */
 .ad{
     background-color: #778da9;
     height:30px;
     text-align: center;
     padding-top: 5px;
-    font-family: 'Anton', sans-serif;}
+    font-family: 'Anton', sans-serif;
+}
 
+/* Swipable Images */
 .slider-container {
-    margin-left: 30px;
-    width: 95%;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -113,6 +116,54 @@ img {
     object-fit: cover;
 }
 
+/* category tiles */
+.category-box1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+/* common class for all the boxes */
+.cbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:573.9px ;
+    width: 360.8px;
+    margin: 0px 20px 20px 20px;
+}
+
+.cbox a{
+    font-weight: 700;
+}
+
+/* ids for each box */
+#cbox1{
+    margin-bottom: 20px;
+    height: 330px;
+    background-image: url(top-100.jpg);
+    background-size: cover;
+    align-self: stretch;
+}
+
+#cbox2{
+    margin-bottom: 20px;
+    background-image: url(hot-trends.webp);
+    background-size: cover;
+    height: 495.9px;
+    align-self: stretch;    
+}
+
+#cbox3{
+    margin-bottom: 20px;
+    height: 330px;
+    background-image: url(custom-prints.webp);
+    background-size: cover;
+    align-self: stretch;
+}
+
+
+/* Footer design */
 .footer-block{
     height: 345px;
     background-color: #415a77;
@@ -154,10 +205,12 @@ img {
     width: 100%;
 }
 
+/* adjusting the hr to divide the links and the copyright thing */
 .copyright-bar{
     border: 1px solid #60799b;
 }
 
+/* changing font for the copyright text */
 .Copyrights{
     font-family: 'Poppins', sans-serif;
 }
