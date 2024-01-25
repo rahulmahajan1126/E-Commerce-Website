@@ -162,6 +162,123 @@ img {
     align-self: stretch;
 }
 
+/* our collection div */
+.ourCollectionDiv{
+    height: 500px;
+    background-color: #415a77;
+    margin-bottom: 50px;
+    padding: 30px 30px 0px 30px;
+}
+
+.ourCollectionDiv p{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.animated-tiles{
+    margin-top: 60px;
+    display:  flex;
+    justify-content: space-evenly;
+}
+
+.ani-tile-1{
+    position: relative;
+    width: 20%;
+    height: 300px;    
+}
+
+.ani-tile-1-name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.ani-tile-1-name img{
+    position: absolute;
+    transform: rotate(90deg);
+    object-fit: fill;
+    height: 15%;
+    width: auto;
+    bottom: 10px;
+    right: 0;
+}
+
+.ani-tile-1-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    height: 240px;
+    width: 65%;
+    border-radius: 10px;
+    background-image: url("cover1.jpg");
+}
+
+.ani-tile-2{
+    position: relative;
+    width: 20%;
+    height: 300px;
+}
+
+.ani-tile-2-name{
+    position: absolute;
+    top: 0;
+    bottom: 0;    
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.ani-tile-2-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    height: 240px;
+    width: 65%;
+    border-radius: 10px;
+    background-color: violet;
+}
+
+.ani-tile-3{
+    position: relative;
+    width: 20%;
+    height: 300px;
+}
+
+.ani-tile-3-name{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.ani-tile-3-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    height: 240px;
+    width: 65%;
+    border-radius: 10px;
+    background-color: violet;
+}
 
 /* Footer design */
 .footer-block{
