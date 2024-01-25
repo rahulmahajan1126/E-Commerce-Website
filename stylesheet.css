@@ -185,7 +185,12 @@ img {
 .ani-tile-1{
     position: relative;
     width: 20%;
-    height: 300px;    
+    height: 300px; 
+    transition: transform 0.3s ease-in-out;   
+}
+
+.ani-tile-1:hover{
+    transform: translateY(-5px);
 }
 
 .ani-tile-1-name{
@@ -194,7 +199,7 @@ img {
     left: 0;
     width: 100%;
     height: 250px;
-    background-color: yellow;
+    background-color: black;
     border-radius: 10px;
     margin-top: 40px;
     display: flex;
@@ -206,11 +211,10 @@ img {
 .ani-tile-1-name img{
     position: absolute;
     transform: rotate(90deg);
-    object-fit: fill;
     height: 15%;
     width: auto;
-    bottom: 10px;
-    right: 0;
+    top:105px;
+    left: -45px;
 }
 
 .ani-tile-1-img{
@@ -221,13 +225,19 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-image: url("cover1.jpg");
+    background-image: url("marvel-cover.jpeg");
+    background-size: cover;
 }
 
 .ani-tile-2{
     position: relative;
     width: 20%;
     height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ani-tile-2:hover{
+    transform: translateY(-5px);
 }
 
 .ani-tile-2-name{
@@ -236,9 +246,22 @@ img {
     bottom: 0;    
     width: 100%;
     height: 250px;
-    background-color: yellow;
+    background-color: black;
     border-radius: 10px;
     margin-top: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.ani-tile-2-name img{
+    position: absolute;
+    transform: rotate(90deg);
+    height: 35%;
+    width: auto;
+    top:85px;
+    left: -95px;
 }
 
 .ani-tile-2-img{
@@ -249,13 +272,20 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-color: violet;
+    background-image: url("dc-cover.jpeg");
+    background-size: cover;
+
 }
 
 .ani-tile-3{
     position: relative;
     width: 20%;
     height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ani-tile-3:hover{
+    transform: translateY(-5px);
 }
 
 .ani-tile-3-name{
@@ -264,9 +294,22 @@ img {
     bottom: 0;
     width: 100%;
     height: 250px;
-    background-color: yellow;
+    background-color: black;
     border-radius: 10px;
     margin-top: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.ani-tile-3-name img{
+    position: absolute;
+    transform: rotate(90deg);
+    height: 30%;
+    width: auto;
+    top:85px;
+    left: -45px;
 }
 
 .ani-tile-3-img{
@@ -277,7 +320,8 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-color: violet;
+    background-image: url("anime-cover.jpeg");
+    background-size: cover;
 }
 
 /* Footer design */
