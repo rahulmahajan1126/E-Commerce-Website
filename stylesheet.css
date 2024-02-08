@@ -24,12 +24,19 @@ body {
 }
 
 .logo {
-    background-image: url("logo.png");
+    background-image: url("images/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 50px;
     width: 45%;
     min-height: 50px; /* prevent collapse */
+}
+
+#cart-count{
+    border-radius: 50%;
+    background-color: rgb(154, 40, 40);
+    font-size: 0.7rem;
+    color: white;
 }
 
 .nav-elements {
@@ -78,7 +85,7 @@ body {
 }
 
 .nav-cart, .nav-profile-logo {
-    padding: 5px; /* Add padding for better visual */
+    padding: 0px; /* Add padding for better visual */
     border: 2px solid transparent; /* Add transparent border by default */
 }
 
@@ -144,14 +151,14 @@ img {
 #cbox1{
     margin-bottom: 20px;
     height: 330px;
-    background-image: url(top-100.jpg);
+    background-image: url(images/top-100.jpg);
     background-size: cover;
     align-self: stretch;
 }
 
 #cbox2{
     margin-bottom: 20px;
-    background-image: url(hot-trends.webp);
+    background-image: url(images/hot-trends.webp);
     background-size: cover;
     height: 495.9px;
     align-self: stretch;    
@@ -160,7 +167,7 @@ img {
 #cbox3{
     margin-bottom: 20px;
     height: 330px;
-    background-image: url(custom-prints.webp);
+    background-image: url(images/custom-prints.webp);
     background-size: cover;
     align-self: stretch;
 }
@@ -228,7 +235,7 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-image: url("marvel-cover.jpeg");
+    background-image: url("images/marvel-cover.jpeg");
     background-size: cover;
 }
 
@@ -275,7 +282,7 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-image: url("dc-cover.jpeg");
+    background-image: url("images/dc-cover.jpeg");
     background-size: cover;
 
 }
@@ -323,7 +330,7 @@ img {
     height: 240px;
     width: 65%;
     border-radius: 10px;
-    background-image: url("anime-cover.jpeg");
+    background-image: url("images/anime-cover.jpeg");
     background-size: cover;
 }
 
@@ -357,8 +364,13 @@ img {
     width: 95%;
     border-radius: 10px;
     margin-top: 10px;
-    background-image: url("poster1.webp");
-    background-size: cover;
+    /* background-image: url("posters/poster1.webp");
+    background-size: cover; */
+    margin-left: 8px;
+}
+
+.poster-tiles-content-img img{
+    border-radius: 10px;
 }
 
 .poster-tiles-content-details{
@@ -379,7 +391,38 @@ img {
     font-size: 16px;
 }
 
-.poster-tiles-content-details button {
+.add-to-cart-container {
+    width: 80px; /* Adjust width as needed */
+    margin: auto; /* Center horizontally */
+}
+
+.add-to-cart-btn{
+    border-radius: 10px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.quantity-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product-quantity {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+/* .poster-tiles-content-details button {
     background-color: #1b263b;
     color: white;
     border: none;
@@ -391,7 +434,7 @@ img {
 
 .poster-tiles-content-details button:hover {
     background-color: #415a77;
-}
+} */
 
 /* Footer design */
 .footer-block{
