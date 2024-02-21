@@ -22,7 +22,10 @@ body {
     justify-content: space-evenly;
     padding: 10px 0px 10px 40px;
 }
-
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
 .logo {
     background-image: url("images/logo.png");
     background-size: contain;
@@ -486,4 +489,133 @@ img {
 /* changing font for the copyright text */
 .Copyrights{
     font-family: 'Poppins', sans-serif;
+}
+
+/* Shopping carts styling */
+.cart-page{
+    margin: 80px 300px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #60799b;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #60799b;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/* Account page styling */
+.account-page{
+    padding: 50px 0;
+    background: antiquewhite;
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: 15px auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+form input{
+    width: 260px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    background-color: #ff523b;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+form .btn :focus{
+    outline: none;
+}
+form a{
+    font-size: 12px;
+}
+#LoginForm{
+    left: 0px;
+}
+#RegForm{
+    left: 300px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b ;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(0px);
+    transition: transform 1s;
 }
