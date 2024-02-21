@@ -343,6 +343,7 @@ img {
 
 .tiles-content{
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .poster-tile-block{
@@ -487,3 +488,4 @@ img {
 .Copyrights{
     font-family: 'Poppins', sans-serif;
 }
+
