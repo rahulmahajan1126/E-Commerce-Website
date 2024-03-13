@@ -154,7 +154,7 @@ img {
 #cbox1{
     margin-bottom: 20px;
     height: 330px;
-    background-image: url(images/top-100.jpg);
+    background-image: url(images/motivational.png);
     background-size: cover;
     align-self: stretch;
 }
@@ -170,7 +170,7 @@ img {
 #cbox3{
     margin-bottom: 20px;
     height: 330px;
-    background-image: url(images/custom-prints.webp);
+    background-image: url(images/aesthetic.png);
     background-size: cover;
     align-self: stretch;
 }
