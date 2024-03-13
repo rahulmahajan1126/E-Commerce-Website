@@ -46,8 +46,8 @@
           <div class="nav-buttons">
             <a href="index.html"><p>Home</p></a>
             <p>Order</p>
-            <p>Posters</p>
-            <p>Categories</p>
+            <a href="#categoriesbuffer"><p>Categories</p></a>
+            <a href="#postersbuffer"><p>Posters</p></a>
           </div>
           <div class="nav-search">
             <input placeholder="Search" />
@@ -94,37 +94,45 @@
         </div>
       </div>
 
+      <div id="categoriesbuffer"></div>
       <!-- our collection div -->
-      <div class="ourCollectionDiv">
+      <div class="ourCollectionDiv" id="categories">
         <p>Our Collections</p>
         <div class="animated-tiles">
           <div class="ani-tile-1">
-            <div class="ani-tile-1-name"><img src="images/marvel.png" /></div>
-            <div class="ani-tile-1-img"></div>
+            <a href="#marveltiles">
+              <div class="ani-tile-1-name"><img src="images/marvel.png" /></div>
+              <div class="ani-tile-1-img"></div>
+            </a>
           </div>
           <div class="ani-tile-2">
-            <div class="ani-tile-2-name">
-              <img src="images/dc-logo.png" />
-            </div>
-            <div class="ani-tile-2-img"></div>
+            <a href="#dctiles">
+              <div class="ani-tile-2-name">
+                <img src="images/dc-logo.png" />
+              </div>
+              <div class="ani-tile-2-img"></div>
+            </a>
           </div>
           <div class="ani-tile-3">
-            <div class="ani-tile-3-name">
-              <img src="images/anime-logo.jpeg" />
-            </div>
-            <div class="ani-tile-3-img"></div>
+            <a href="#animetiles">
+              <div class="ani-tile-3-name">
+                <img src="images/anime-logo.jpeg" />
+              </div>
+              <div class="ani-tile-3-img"></div>
+            </a>
           </div>
         </div>
       </div>
 
+      <div id="postersbuffer"></div>
       <!-- posters tiles -->
-      <div class="poster-tiles">
+      <div class="poster-tiles" id="posters">
         <!--title for the each block of posters -->
         <p>Our Originals</p>
         <!--this is for whole block which will have the photos of posters -->
         <div class="tiles-content">
           <!-- 1 -->
-          <div class="poster-tile-block">
+          <div class="poster-tile-block" id="misctiles">
             <div class="poster-tiles-content">
               <div class="poster-tiles-content-img">
                 <img src="posters/poster1.webp" />
@@ -200,7 +208,7 @@
               </div>
             </div>
           </div>
-          <div class="poster-tile-block">
+          <div class="poster-tile-block" id="dctiles">
             <!-- 5 -->
             <div class="poster-tiles-content">
               <div class="poster-tiles-content-img">
@@ -277,7 +285,7 @@
               </div>
             </div>
           </div>
-          <div class="poster-tile-block">
+          <div class="poster-tile-block" id="marveltiles">
             <!-- 9 -->
             <div class="poster-tiles-content">
               <div class="poster-tiles-content-img">
@@ -354,7 +362,7 @@
               </div>
             </div>
           </div>
-          <div class="poster-tile-block">
+          <div class="poster-tile-block" id="animetiles">
             <!-- 13 -->
             <div class="poster-tiles-content">
               <div class="poster-tiles-content-img">
